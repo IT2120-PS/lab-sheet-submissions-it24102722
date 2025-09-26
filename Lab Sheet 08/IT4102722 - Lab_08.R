@@ -1,7 +1,7 @@
 # Q1
 
 # Set the working directory
-setwd(C:\\Users\\user\\Desktop\\IT24102722)
+setwd("C:\\Users\\user\\Desktop\\IT24102722")
 
 # Import the dataset
 data <- read.table("Exercise - LaptopsWeights.txt", header = TRUE)
@@ -56,4 +56,5 @@ samplesmean
 truevar <- popvar / 6
 
 samplevars
+
 truevar
